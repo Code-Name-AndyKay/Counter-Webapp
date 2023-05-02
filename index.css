@@ -1,0 +1,152 @@
+body {
+    background-color: #51375A;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0px;
+}
+
+#Master-Div{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px ;
+}
+
+.General-button {
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.counterCard-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 580px;
+    height: 713px;
+    padding: 50px;
+    border-radius: 5%;
+}
+.SavedCard-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 580px;
+    height: 713px;
+    padding: 50px;
+    border-radius: 5%;
+}
+
+#card-color-1{
+    background-color: #EE4266;
+}
+
+#card-color-2{
+    background-color: #6162BE;
+}
+    #counterDisplay-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .countDisplay{
+        text-align: center;
+        margin: 0px;
+        font-size: 250px;
+        padding: 20px;
+    }
+
+    #button-div{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        position: relative;
+        top: -100px;
+    }
+
+    .buttonDisplay{
+        font-size: 50px;
+    }
+
+#save-btn {
+    margin-right: 20px;
+    background: #4CCE80;
+}
+    #save-btn:hover {
+        background: #4fe98d;
+    }
+    #save-btn:active {
+        background: #3ba064;
+    }
+
+#reset-btn {
+    
+    background: #D9D9D9;
+}
+    #reset-btn:hover {
+        background: #d0344e;
+    }
+    #reset-btn:active {
+        background: #9a2337;
+    }
+
+
+.prevDisplay {
+    font-size: 50px;
+}
+
+
+.SavedBox {
+
+    font-size: 50px;
+    overflow-wrap: break-word;
+    text-align: start;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 500px;
+    height: 480px;
+    padding: 50px;
+    border-radius: 5%;
+    background-color: #484A8F;
+
+}
+
+.main-btn {
+    font-weight: 900;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(215, 215, 215);
+}
+    .main-btn:hover {
+        cursor: pointer;
+        color: rgb(234, 234, 234);
+    }
+    .main-btn:active {
+        cursor: pointer;
+        color: rgb(159, 159, 159);
+    }
+    
+    #add-btn{
+        width: 200px;
+
+    }
+    #sub-btn{
+        
+        width: 200px;
+
+    }

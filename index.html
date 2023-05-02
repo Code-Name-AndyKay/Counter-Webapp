@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+        <script defer src="index.js"></script>
+        <title>Counter Webapp</title>
+    </head>
+    <body>
+        <div id="Master-Div">
+            <div class="counterCard-div" id="card-color-1">
+                <div id="counterDisplay-div">
+                    <button class="countDisplay main-btn" id="add-btn" onclick="Counter.add()">+</button>
+                    <h2 class="countDisplay" id="ViewCount">0</h2>
+                    <button class="countDisplay main-btn" id="sub-btn" onclick="Counter.subtract()">-</button>
+                </div>
+
+                <div id="button-div">
+                    <button id="save-btn" onclick="Counter.save()" class="buttonDisplay General-button">save</button>
+                    <button id="reset-btn" onclick="Counter.reset()"class="buttonDisplay General-button">reset</button>
+                </div>
+            </div>
+
+
+            <div class="SavedCard-div" id="card-color-2">
+                <h1 class="prevDisplay">Saved Dairy</h1>
+                <div class="SavedBox" id="saved-values"></div>
+            </div>
+        </div>
+    </body>
+</html>
